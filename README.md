@@ -1,8 +1,6 @@
-# React Discord Replica 
+### React Discord Replica 
 
 Project made with [create-react-app] and [tailwind]
-
-### Dependencies
 
 npm install -D tailwindcss
 npm install @craco/craco
