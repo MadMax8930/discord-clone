@@ -1,12 +1,11 @@
 ### React Discord Replica 
 
 Project made with [create-react-app] and [tailwind]
-<div>
-   npm install -D tailwindcss
-   npm install @craco/craco
-   npx tailwindcss-cli@latest init
-   npm i react-icons --save       
-</div>
+
+-   npm install -D tailwindcss
+-   npm install @craco/craco
+-   npx tailwindcss-cli@latest init
+-   npm i react-icons --save       
 
 ### Tailwind documentation [https://tailwindcss.com/docs/installation]
 
