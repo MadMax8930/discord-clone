@@ -8,10 +8,10 @@ const SideBar = () => {
       <SideIcon icon={<FaFire size='24' />}/>
       <Divider />
       <SideIcon icon={<BsPlus size='32' />} />
-      <SideIcon icon={<BsFillLightningFill size='24' />} />
-      <SideIcon icon={<FaPoo size='24' />} />
+      <SideIcon icon={<BsFillLightningFill size='20' />} />
+      <SideIcon icon={<FaPoo size='20' />} />
       <Divider />
-      <SideIcon icon={<BsGearFill size='24' />} />
+      <SideIcon icon={<BsGearFill size='22' />} />
     </div>
   )
 }
