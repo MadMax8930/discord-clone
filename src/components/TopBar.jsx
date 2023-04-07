@@ -6,7 +6,7 @@ import {
    FaMoon,
    FaSun
  } from 'react-icons/fa';
- import useDarkMode from '../useDarkMode';
+ import useDarkMode from './useDarkMode';
 
 const TopBar = () => {
   return (
