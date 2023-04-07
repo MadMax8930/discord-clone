@@ -10,7 +10,7 @@ const ChannelSection = () => {
   return (
     <div className='channel-section'>
       <div className='flex items-center justify-center h-16'>
-         <h5 className='text-lg tracking-wider font-bold text-gray-600 dark:text-gray-400 ml-4  align-middle;'>
+         <h5 className='text-lg tracking-wider font-bold text-gray-600 dark:text-gray-400 align-middle'>
             Channels
          </h5>
       </div>
@@ -29,7 +29,7 @@ const Dropdown = ({ header, selections }) => {
 
    return (
       <div className='dropdown'>
-         <div onClick={() => setExpanded(!expanded)}>
+         <div onClick={() => setExpanded(!expanded)} className='dropdown-header'>
            <ChevronIcon expanded={expanded} />
            <h5 className={expanded ? 'dropdown-header-text-selected' : 'dropdown-header-text'}>{header}</h5>
            <FaPlus size='12' className='text-accent text-opacity-80 my-auto ml-auto' />
@@ -41,7 +41,7 @@ const Dropdown = ({ header, selections }) => {
 }
 
 const ChevronIcon = ({ expanded }) => {
-   const ChevClass = 'text-accent text-opacity-80 my-auto mr-1';
+   const ChevClass = 'text-secondary text-opacity-80 my-auto mr-1';
    return expanded 
    ? 
    (<FaChevronDown size='14' className={ChevClass} />) 
