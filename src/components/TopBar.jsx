@@ -1,8 +1,29 @@
-import React from 'react'
+import {
+   FaSearch,
+   FaHashtag,
+   FaRegBell,
+   FaUserCircle,
+   FaMoon,
+   FaSun
+ } from 'react-icons/fa';
+ import darkMode from '../darkMode';
 
-function TopBar() {
+const TopBar = () => {
   return (
-    <div>TopBar</div>
+    <div className='top-nav'>
+       {/* <HashtagIcon />
+       <Title />
+       <ThemeIcon />
+       <Search />
+       <BellIcon />
+       <UserCircle /> */}
+       <li>a</li>
+       <li>a</li>
+       <li>a</li>
+       <li>a</li>
+       <li>a</li>
+       <li>a</li>
+    </div>
   )
 }
 

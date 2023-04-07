@@ -30,7 +30,8 @@
    /* ChannelSection */
    
    .channel-section {
-      @apply w-80 h-auto m-0 ml-16 bg-gray-200 dark:bg-gray-800 shadow-lg overflow-hidden;
+      @apply w-80 h-auto m-0 ml-16 bg-gray-200 dark:bg-gray-800 
+      shadow-lg overflow-hidden;
    }
    .channel-content {
       @apply flex flex-col items-center justify-start p-1 m-0;
@@ -39,10 +40,11 @@
       @apply m-0 w-full px-2 pb-2 transition duration-300 ease-in-out;
    }
    .dropdown-header {
-      @apply flex flex-row items-center justify-evenly mx-0 text-gray-500 cursor-pointer;
+      @apply flex flex-row items-center justify-evenly mx-0 
+      text-gray-500 cursor-pointer;
    }
    .dropdown-header-text {
-      @apply text-gray-500  text-opacity-90 text-lg font-semibold cursor-default;
+      @apply text-gray-500 text-opacity-90 text-lg font-semibold cursor-default;
    }
    .dropdown-header-text-selected {
       @apply text-blue-500 text-opacity-90 text-lg font-bold;
@@ -56,7 +58,6 @@
       transition duration-300 ease-in-out 
       hover:text-pink-500 dark:hover:text-gray-500 cursor-pointer;
    }
-}
 
    /* ChatSection */
 
@@ -108,3 +109,12 @@
       @apply text-lg text-left text-gray-800 dark:text-white 
       mr-auto whitespace-normal;
    }
+
+   /* TopBar */ 
+
+   .top-nav {
+      @apply flex flex-row items-center justify-evenly 
+      bg-gray-300 dark:bg-gray-700 bg-opacity-90  
+      w-full h-16 m-0 shadow-lg;
+   }
+}
