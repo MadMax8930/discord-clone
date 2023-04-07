@@ -11,4 +11,4 @@ Tailwind documentation [https://tailwindcss.com/docs/installation]
 
 'npm start' to run the project locally 
 
-### UI deployed on netlify: [discord-tailwind-replica.netlify.app]
+<!-- ### UI deployed on netlify: [discord-tailwind-replica.netlify.app] -->
