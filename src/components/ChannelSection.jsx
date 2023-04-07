@@ -9,6 +9,11 @@ const random = ['variants', 'plugins'];
 const ChannelSection = () => {
   return (
     <div className='channel-section'>
+      <div className='flex items-center justify-center h-16'>
+         <h5 className='text-lg tracking-wider font-bold text-gray-600 dark:text-gray-400 ml-4  align-middle;'>
+            Channels
+         </h5>
+      </div>
       <div className='channel-content'>
          <Dropdown header="Topics" selections={topics}/>
          <Dropdown header="Questions" selections={questions}/>
