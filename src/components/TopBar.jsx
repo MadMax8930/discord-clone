@@ -6,14 +6,14 @@ import {
    FaMoon,
    FaSun
  } from 'react-icons/fa';
- import darkMode from '../darkMode';
+ import useDarkMode from '../darkMode';
 
 const TopBar = () => {
   return (
     <div className='top-nav'>
        <HashIcon />
        <Title />
-       {/* <ThemeIcon /> */}
+       <ThemeIcon />
        <Search />
        <BellIcon />
        <UserIcon />
@@ -21,9 +21,19 @@ const TopBar = () => {
   )
 }
 
-const Theme = () => {
-   
-}
+const ThemeIcon = () => {
+   const [darkTheme, setDarkTheme] = useDarkMode();
+   const handleMode = () => setDarkTheme(!darkTheme);
+   return (
+     <span onClick={handleMode}>
+       {darkTheme ? (
+         <FaSun size='24' className='top-icon' />
+       ) : (
+         <FaMoon size='24' className='top-icon' />
+       )}
+     </span>
+   );
+};
 
 const Search = () => (
    <div className='top-search'>
