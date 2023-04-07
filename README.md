@@ -1,13 +1,13 @@
-### React Discord Replica 
+### React Discord Replica with Dark Mode
 
-Project made with [create-react-app] and [tailwind]
+Project made with 'create-react-app' and 'tailwind'
 
 -   npm install -D tailwindcss
 -   npm install @craco/craco
 -   npx tailwindcss-cli@latest init
 -   npm i react-icons --save       
 
-### Tailwind documentation [https://tailwindcss.com/docs/installation]
+Tailwind documentation [https://tailwindcss.com/docs/installation]
 
 'npm start' to run the project locally 
 

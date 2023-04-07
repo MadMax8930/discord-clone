@@ -21,6 +21,10 @@ const TopBar = () => {
   )
 }
 
+const Theme = () => {
+   
+}
+
 const Search = () => (
    <div className='top-search'>
      <input className='top-search-input' type='text' placeholder='Search...' />
