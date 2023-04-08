@@ -1,5 +1,7 @@
 ### React Discord Replica with Dark Mode
 
+# Tailwind Practice
+
 Project made with 'create-react-app' and 'tailwind'
 
 -   npm install -D tailwindcss
